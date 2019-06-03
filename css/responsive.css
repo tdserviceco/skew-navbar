@@ -1,0 +1,64 @@
+/** MOBILE 320px -> 679px */
+
+header {
+  width: calc(80vw - 100px);
+  position: absolute;
+  top: 0;
+  height: calc(100vh - 0px);
+  z-index: 1;
+}
+
+.skew {
+  width: calc(100vw - 100px);
+  text-indent: -9999px;
+  transform: skewX(10deg);
+  position: absolute;
+  top: 0;
+  height: calc(100vh - 0px);
+  z-index: 2;
+  border-right: 2px solid black;
+}
+
+.menu.open {
+  left: 30%;
+  transform: translate(-30%, -30%);
+}
+
+
+/** SMALL SCREEN 700px -> 920px */
+
+@media(min-width: 700px) {
+  header {
+    width: calc(80vw - 200px);
+  }
+  .skew {
+    width: calc(100vw - 200px);
+  }
+} 
+
+@media(min-width: 920px) {
+  header {
+    width: calc(80vw - 500px);
+  }
+  .skew {
+    width: calc(100vw - 500px);
+  }
+} 
+
+@media(min-width: 1280px) {
+  header {
+    width: calc(80vw - 800px);
+  }
+  .skew {
+    width: calc(100vw - 800px);
+  }
+} 
+
+@media(min-width: 1920px) {
+  header {
+    width: calc(80vw - 1300px);
+  }
+  .skew {
+    width: calc(100vw - 1300px);
+  }
+} 

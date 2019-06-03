@@ -1,0 +1,6 @@
+/** GLOBAL SETTINGS */
+@import './reset.css';
+@import './global.css';
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+/** RESPONSIVE SETTINGS */
+@import './responsive.css';
